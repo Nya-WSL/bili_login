@@ -1,0 +1,18 @@
+[project]
+name = "bili-login"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13, <3.14"
+dependencies = [
+    "nicegui>=3.12.1",
+    "pillow>=12.2.0",
+    "pywebview==6.2",
+    "qrcode>=8.2",
+    "requests>=2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "nuitka>=4.1.2",
+]
