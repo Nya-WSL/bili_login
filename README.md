@@ -24,3 +24,9 @@ uv run build.py
 uv add pyinstaller
 uv run pyinstaller -F main.py --icon logo.ico --windows
 ```
+
+### Screenshot
+
+![1](./img/1.png)
+![2](./img/2.png)
+![3](./img/3.png)
